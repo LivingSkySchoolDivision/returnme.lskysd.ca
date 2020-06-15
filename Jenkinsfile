@@ -9,7 +9,7 @@ pipeline {
         stage('Git clone') {
             steps {
                 git branch: 'master',
-                    url: "https://github.com/LivingSkySchoolDivision/return.lskysd.ca.git"
+                    url: "https://github.com/LivingSkySchoolDivision/returnme.lskysd.ca.git"
             }
         }
         stage('Docker build') {
